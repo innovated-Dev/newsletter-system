@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OffScape Logistics - Ibadan Delivery Services</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="container nav">
+        <div class="logo">
+          <img class="logo-img" src="/assets/OffScape_Logo.png"
+          alt="OffScape Logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tracking">Map Track</a></li>
+          <li><a href="#services">Logistics</a></li>
+          <li><a href="#about">About</a></li>
+          <li>
+            <button class="nav-cta"><a href="#booking">Book Now</a></button>
+          </li>
+        </ul>
+        <div class="mobile-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-slider">
+        <div class="hero-slide active">
+          <div class="hero-content">
+            <h1>Track Live Like It's Near You in Ibadan</h1>
+            <p>
+              Your trusted logistics partner for lightning delivery, real-time
+              package tracking, and professional courier services across Ibadan
+              and surrounding areas.
+            </p>
+            <div class="hero-buttons">
+              <a href="#booking" class="btn btn-primary">Book For Free</a>
+              <a href="#tracking" class="btn btn-secondary">Track Package</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <div class="hero-content">
+            <h1>Secure Payments, Guaranteed Delivery</h1>
+            <p>
+              Experience peace of mind with our escrow payment system and 99.9%
+              successful delivery rate. Your business deserves reliability.
+            </p>
+            <div class="hero-buttons">
+              <a href="#services" class="btn btn-primary">Learn More</a>
+              <a href="#booking" class="btn btn-secondary">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <div class="hero-content">
+            <h1>Lightning-Fast Business Solutions</h1>
+            <p>
+              Same-day delivery, real-time tracking, and enterprise-grade
+              reliability. Join thousands of businesses that trust OffScape.
+            </p>
+            <div class="hero-buttons">
+              <a href="#booking" class="btn btn-primary">Join Now</a>
+              <a href="#tracking" class="btn btn-secondary">See Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-slide">
+          <div class="hero-content">
+            <h1>Premium Service Excellence</h1>
+            <p>
+              Discover our premium logistics solutions designed for modern
+              businesses. Experience the difference with OffScape's elite
+              service.
+            </p>
+            <div class="hero-buttons">
+              <a href="#booking" class="btn btn-primary">Get Premium</a>
+              <a href="#tracking" class="btn btn-secondary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <button class="hero-arrow prev" onclick="previousSlide()">&#8249;</button>
+      <button class="hero-arrow next" onclick="nextSlide()">&#8250;</button>
+
+      <!-- Dots Navigation -->
+      <div class="hero-nav">
+        <span class="hero-dot active" onclick="currentHeroSlide(1)"></span>
+        <span class="hero-dot" onclick="currentHeroSlide(2)"></span>
+        <span class="hero-dot" onclick="currentHeroSlide(3)"></span>
+        <span class="hero-dot" onclick="currentHeroSlide(4)"></span>
+      </div>
+    </section>
+
+    <!-- Why People Choose Us -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h2>Why Do People Choose Us?</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="/assets/images/profile-img1.jpg" alt="Miss Okoye" />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "This app has completely transformed my coffee shop. By giving
+                my customers the ability to track their orders in real-time, it
+                hasn't just streamlined my operations. It's built incredible
+                trust and strengthened my marketing. The transparency has taken
+                my customer relationships to a whole new level. A must-have for
+                any business that delivers!"
+              </p>
+              <div class="testimonial-author">
+                <strong>Miss Okoye</strong>
+                <span>Coffee Vendor</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="/assets/images/profile-img2b.png" alt="Mr Samuel O." />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "OffScape has been a game-changer for our customer service. The
+                real-time tracking provides unparalleled transparency for both
+                us and our clients, building immense trust. We've benefited
+                immensely from this reliable platform. It's so effective that
+                we're confident anyone who tries our products will have a
+                flawless delivery experience."
+              </p>
+              <div class="testimonial-author">
+                <strong>Mr Samuel O.</strong>
+                <span>Sales Manager</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img
+                src="/assets/images/profile-img3.png"
+                alt="Mrs Stella Johnson"
+              />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "After losing money to scam logistics companies, OffScape was
+                the solution I needed. Their escrow payment system guarantees I
+                get paid securely, and live tracking provides peace of mind for
+                me and my customers. This reliability has boosted my credibility
+                and increased sales. OffScape isn't just a tool it's the secure
+                foundation my business needs to grow."
+              </p>
+              <div class="testimonial-author">
+                <strong>Mrs Stella Johnson</strong>
+                <span>Business Owner</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img
+                src="/assets/images/profile-img4b.png"
+                alt="Mr Joel Aderemi"
+              />
+            </div>
+            <div class="testimonial-content">
+              <p>
+                "From unemployed graduate to a proud earner! OffScape didn't
+                just give me a job; it gave me my dignity back. Now, I provide
+                for my family with fast, secure deliveries. Reliable payments,
+                every time. Don't just deliver, I deliver with confidence.
+                Choose OffScape."
+              </p>
+              <div class="testimonial-author">
+                <strong>Mr Joel Aderemi</strong>
+                <span>OffScape Rider</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Businesses Choose Us -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Businesses Choose OffScape</h2>
+          <p>
+            Discover the comprehensive solutions that make OffScape the trusted
+            partner for thousands of businesses across Nigeria. From
+            lightning-fast deliveries to enterprise-grade security, we've got
+            you covered.
+          </p>
+        </div>
+        <div class="service-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 2L3 14H12L11 22L21 10H12L13 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Lightning-Fast Delivery</h3>
+            <p>
+              Same-day delivery across major Nigerian cities. Your customers
+              receive their orders in record time, boosting satisfaction and
+              repeat business.
+            </p>
+            <ul class="service-features">
+              <li>2-hour express delivery within Lagos/Ibadan</li>
+              <li>Same-day delivery to 15+ major cities</li>
+              <li>Priority handling for urgent packages</li>
+              <li>Real-time delivery notifications</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 10C21 17 12 23 12 23S3 17 3 10A9 9 0 0 1 21 10Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle
+                  cx="12"
+                  cy="10"
+                  r="3"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Complete Transparency</h3>
+            <p>
+              Advanced GPS tracking gives you and your customers real-time
+              visibility from pickup to delivery. No more wondering "where's my
+              package?"
+            </p>
+            <ul class="service-features">
+              <li>Live GPS tracking with map view</li>
+              <li>SMS & email delivery updates</li>
+              <li>Photo confirmation of delivery</li>
+              <li>Driver contact information</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="3"
+                  y="11"
+                  width="18"
+                  height="11"
+                  rx="2"
+                  ry="2"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M7 11V7A5 5 0 0 1 17 7V11"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Secure Payment Protection</h3>
+            <p>
+              Our escrow system protects your revenue while our fraud detection
+              shields your business from scams. Your money is safe until
+              delivery is confirmed.
+            </p>
+            <ul class="service-features">
+              <li>Escrow payment protection</li>
+              <li>Advanced fraud detection</li>
+              <li>Instant payment releases</li>
+              <li>Multiple payment options</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3 21H21"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M5 21V7L13 2L21 7V21"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9 9V13"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15 9V13"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Enterprise Solutions</h3>
+            <p>
+              Scalable logistics for growing businesses. From bulk deliveries to
+              scheduled pickups, we handle your volume with enterprise-grade
+              reliability.
+            </p>
+            <ul class="service-features">
+              <li>Volume discounts for bulk orders</li>
+              <li>Dedicated account manager</li>
+              <li>Custom API integration</li>
+              <li>Priority customer support</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17 21V19A4 4 0 0 0 13 15H5A4 4 0 0 0 1 19V21"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <circle
+                  cx="9"
+                  cy="7"
+                  r="4"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M23 21V19A4 4 0 0 0 16 15.13"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M16 3.13A4 4 0 0 1 16 11"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Business Community</h3>
+            <p>
+              Join thousands of business owners in our exclusive community.
+              Share insights, get support, and access our weekly Clay Mic
+              Podcast for business growth tips.
+            </p>
+            <ul class="service-features">
+              <li>Exclusive member community</li>
+              <li>Weekly business podcast</li>
+              <li>Networking opportunities</li>
+              <li>Business growth resources</li>
+            </ul>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <polyline
+                  points="12,6 12,12 16,14"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+            <h3>Always-On Support</h3>
+            <p>
+              Round-the-clock customer support ensures your deliveries never
+              stop. Our dedicated team is always ready to resolve issues and
+              keep your business running smoothly.
+            </p>
+            <ul class="service-features">
+              <li>24/7 phone and chat support</li>
+              <li>Instant issue resolution</li>
+              <li>Proactive delivery monitoring</li>
+              <li>Emergency delivery assistance</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cta-section">
+          <h3>Ready to Transform Your Delivery Experience?</h3>
+          <p>
+            Join thousands of businesses that trust OffScape for their logistics
+            needs. Start your journey today.
+          </p>
+          <div class="cta-buttons">
+            <a href="#booking" class="btn btn-primary">Get Started Free</a>
+            <a href="#tracking" class="btn btn-secondary">Schedule a Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Tracking Demo -->
+    <section id="tracking" class="tracking-demo">
+      <div class="container">
+        <div class="section-header">
+          <h2>Live Tracking Demo</h2>
+          <p>
+            Experience real-time delivery tracking in action. Watch as packages
+            move from Ibadan to their destinations with complete transparency
+            and precision.
+          </p>
+        </div>
+        <div class="tracking-container">
+          <div class="map-demo">
+            <div class="map-canvas">
+              <div class="delivery-route">
+                <div class="route-line route-segment-1"></div>
+                <div class="route-line route-segment-2"></div>
+                <div class="route-line route-segment-3"></div>
+              </div>
+              <div class="location-pin pin-origin">
+                <div class="pin-label">Ibadan Hub</div>
+              </div>
+              <div class="location-pin pin-current">
+                <div class="pin-label">En Route</div>
+              </div>
+              <div class="location-pin pin-destination">
+                <div class="pin-label">Lagos Delivery</div>
+              </div>
+            </div>
+          </div>
+          <div class="tracking-info">
+            <div class="tracking-header">
+              <h3>Live Delivery Tracking</h3>
+              <div class="tracking-id">#OSC-2024-0892</div>
+            </div>
+            <div class="delivery-status">
+              <div class="status-indicator">
+                <div class="status-dot"></div>
+                <div class="status-text">In Transit</div>
+              </div>
+              <div class="estimated-time">
+                Estimated delivery: 2:30 PM today
+              </div>
+            </div>
+            <div class="delivery-details">
+              <div class="detail-row">
+                <span class="detail-label">From:</span>
+                <span class="detail-value">Ibadan, Oyo State</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">To:</span>
+                <span class="detail-value">Victoria Island, Lagos</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Distance:</span>
+                <span class="detail-value">128 km</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Driver:</span>
+                <span class="detail-value">Adebayo T.</span>
+              </div>
+              <div class="detail-row">
+                <span class="detail-label">Vehicle:</span>
+                <span class="detail-value">Toyota Hiace (ABC-123-DE)</span>
+              </div>
+            </div>
+            <div class="progress-container">
+              <div class="progress-title">Delivery Progress</div>
+              <div class="progress-bar">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+            <div class="milestone-list">
+              <div class="milestone completed">
+                <div class="milestone-icon">✓</div>
+                <div class="milestone-text">Package picked up from Ibadan</div>
+              </div>
+              <div class="milestone completed">
+                <div class="milestone-icon">✓</div>
+                <div class="milestone-text">Departed distribution center</div>
+              </div>
+              <div class="milestone active">
+                <div class="milestone-icon">⟶</div>
+                <div class="milestone-text">En route to Lagos</div>
+              </div>
+              <div class="milestone pending">
+                <div class="milestone-icon">○</div>
+                <div class="milestone-text">Out for delivery</div>
+              </div>
+              <div class="milestone pending">
+                <div class="milestone-icon">○</div>
+                <div class="milestone-text">Delivered</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="demo-controls">
+          <button class="btn btn-secondary" onclick="restartDemo()">
+            Restart Demo
+          </button>
+          <button class="btn btn-secondary" onclick="skipToDelivery()">
+            Skip to Delivery
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Deep Dive About Us -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-slider-container">
+          <div class="about-slider">
+            <div class="about-slide active">
+              <div class="slide-content">
+                <h1>Dive Deep To Know More About Us</h1>
+                <p class="slide-subtitle">
+                  <em>OffScape:</em> Beyond a Delivery Service. We're Your
+                  Business Partner
+                </p>
+                <p>
+                  <strong
+                    >We believe a delivery shouldn't be a risk. It should be a
+                    promise.</strong
+                  >
+                </p>
+                <p>
+                  Welcome to OffScape, where logistics meets reliability. We're
+                  not just another delivery company – we're the partner your
+                  business deserves. Let us show you how we're revolutionizing
+                  the delivery industry, one promise at a time.
+                </p>
+                <div class="slide-buttons">
+                  <a href="#booking" class="btn btn-primary">Get Started</a>
+                  <a href="#services" class="btn btn-secondary">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="about-slide">
+              <div class="slide-content">
+                <h2>Our Story</h2>
+                <p class="slide-subtitle">
+                  Born from Frustration, Built for Success
+                </p>
+                <p>
+                  We started <em>OffScape</em> because we know what it feels
+                  like to have your business reputation hang in the balance of
+                  an unreliable delivery. The lost packages, the unanswered
+                  calls, the frustrated customers—that's the old way of doing
+                  things.
+                </p>
+                <p>
+                  We've built a new way: a platform that's more than just
+                  logistics. It's a solution designed for the modern business
+                  owner who refuses to compromise on quality and reliability.
+                </p>
+                <div class="slide-buttons">
+                  <a href="#services" class="btn btn-primary"
+                    >Join Our Mission</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="about-slide">
+              <div class="slide-content">
+                <h2>Trusted by Thousands</h2>
+                <p class="slide-subtitle">Numbers That Speak for Themselves</p>
+                <p>
+                  Our commitment to excellence isn't just a promise – it's
+                  proven by results. Here's what we've achieved together with
+                  our business partners:
+                </p>
+                <div class="stats-grid">
+                  <div class="stat-item">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Delivery Success</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">24/7</div>
+                    <div class="stat-label">Support Available</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">10k+</div>
+                    <div class="stat-label">Happy Businesses</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">Real-time</div>
+                    <div class="stat-label">Order Tracking</div>
+                  </div>
+                </div>
+                <div class="slide-buttons">
+                  <a href="#testimonials" class="btn btn-primary"
+                    >See Success Stories</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="about-slide">
+              <div class="slide-content">
+                <h2>Why OffScape Is Different</h2>
+                <p class="slide-subtitle">
+                  We are not just a delivery site; we are your dedicated partner
+                </p>
+                <p>
+                  Our platform is meticulously crafted to give you the control
+                  and peace of mind you deserve:
+                </p>
+                <ul class="features-list">
+                  <li>
+                    <strong>Total Transparency, Every Step of the Way</strong>
+                    <p>
+                      Advanced real-time tracking gives you and your customers
+                      complete visibility, from order placement to safe
+                      delivery.
+                    </p>
+                  </li>
+                  <li>
+                    <strong>Built-in Business Protection</strong>
+                    <p>
+                      Integrated escrow payment system and robust fraud
+                      detection to protect your revenue and reputation.
+                    </p>
+                  </li>
+                  <li>
+                    <strong>Lightning-Fast Service</strong>
+                    <p>
+                      Instant shopping and lightning-speed orders to meet
+                      today's market demands.
+                    </p>
+                  </li>
+                  <li>
+                    <strong>More Than Service, It's Community</strong>
+                    <p>
+                      Join our community platform to share insights, find
+                      support, and shape the future of logistics.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="about-slide">
+              <div class="slide-content">
+                <h2>Join the Movement. Grow with Us.</h2>
+                <p class="slide-subtitle">
+                  Ready to transform your business delivery experience?
+                </p>
+                <p>
+                  We are ready to play a gigantic role in your journey to
+                  success. Our commitment goes beyond our platform – we share
+                  every step of our journey through our weekly podcast.
+                </p>
+                <div class="podcast-highlight">
+                  <h3>🎙️ Tune into the Clay Mic Podcast</h3>
+                  <p>
+                    Get free, weekly episodes packed with business advice,
+                    problem-solving tips, and updates that directly benefit you.
+                  </p>
+                </div>
+                <p>
+                  Ready to gain peace of mind and build stronger relationships
+                  with your customers?
+                </p>
+                <div class="slide-buttons">
+                  <a href="#booking" class="btn btn-primary">Become a Member</a>
+                  <a href="#newsletter" class="btn btn-secondary">Listen Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-nav">
+            <span
+              class="about-dot active"
+              onclick="currentAboutSlide(1)"
+            ></span>
+            <span class="about-dot" onclick="currentAboutSlide(2)"></span>
+            <span class="about-dot" onclick="currentAboutSlide(3)"></span>
+            <span class="about-dot" onclick="currentAboutSlide(4)"></span>
+            <span class="about-dot" onclick="currentAboutSlide(5)"></span>
+          </div>
+          <button class="slider-arrow about-prev" onclick="prevAboutSlide()">
+            ‹
+          </button>
+          <button class="slider-arrow about-next" onclick="nextAboutSlide()">
+            ›
+          </button>
+        </div>
+
+        <div class="podcast-section">
+          <div class="podcast-visual">
+            <div class="sound-wave wave-1"></div>
+            <div class="sound-wave wave-2"></div>
+            <div class="sound-wave wave-3"></div>
+            <div class="vinyl-disk">
+              <div class="vinyl-groove groove-1"></div>
+              <div class="vinyl-groove groove-2"></div>
+              <div class="vinyl-groove groove-3"></div>
+            </div>
+            <div class="headphones">
+              <div class="headband"></div>
+              <div class="ear-cup left"></div>
+              <div class="ear-cup right"></div>
+            </div>
+          </div>
+          <div class="podcast-content">
+            <h3>THE CLAY MIC PODCAST</h3>
+            <p>
+              Listen to our podcast to know more about us and get the latest
+              updates
+            </p>
+            <a href="#" class="btn btn-primary">Listen Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>Stay Updated</h2>
+          <p>
+            Subscribe to our newsletter for delivery tips, special offers, and
+            service updates
+          </p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input
+              type="text"
+              name="firstName"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="lastName"
+              placeholder="Last Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>OffScape Logistics</h3>
+            <p>
+              Your reliable delivery partner in Ibadan. Fast, secure, and
+              professional logistics services.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook">📘</a>
+              <a href="#" aria-label="Twitter">🐦</a>
+              <a href="#" aria-label="Instagram">📷</a>
+              <a href="#" aria-label="LinkedIn">💼</a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <div class="contact-info">
+              <p>📞 +234 xxx xxx xxxx</p>
+              <p>✉️ support@cabinetoffscape.ng</p>
+              <p>📍 Ibadan, Oyo State</p>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Service Areas</h4>
+            <ul>
+              <li>Ibadan North</li>
+              <li>Ibadan South</li>
+              <li>Ibadan Central</li>
+              <li>Surrounding Areas</li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#services">Our Services</a></li>
+              <li><a href="#booking">Book Delivery</a></li>
+              <li><a href="#tracking">Track Package</a></li>
+              <li><a href="#about">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 OffScape Logistics. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
