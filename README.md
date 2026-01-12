@@ -43,6 +43,3 @@ Open for improvements, especially **scaling, templating, and analytics enhanceme
 MIT License
 
 
-If you want, I can **also make them visually nicer** with **screenshots, flow diagrams, and badges** — this dramatically increases credibility for platforms like Lemon.io.  
-
-Do you want me to do that next?
